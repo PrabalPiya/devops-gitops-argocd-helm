@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/PrabalPiya/devops-gitops-argocd-helm.git
+    repoURL: https://github.com/YOUR_GITHUB_USERNAME/devops-gitops-argocd-helm.git
     targetRevision: main
     path: helm/devops-app
 

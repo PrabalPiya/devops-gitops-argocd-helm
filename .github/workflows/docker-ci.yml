@@ -28,5 +28,4 @@ jobs:
           context: ./app
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/gitops-demo-app:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/gitops-demo-app:${{ github.sha }}

@@ -1,9 +1,9 @@
 replicaCount: 2
 
 image:
-  repository: xpocky/gitops-demo-app
-  tag: latest
-  pullPolicy: Always
+  repository: YOUR_DOCKERHUB_USERNAME/gitops-demo-app
+  tag: "initial"
+  pullPolicy: IfNotPresent
 
 service:
   type: NodePort
